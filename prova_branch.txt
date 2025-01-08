@@ -1,0 +1,1 @@
+Aquest fitxer és per veure què passa quan afegim un fitxer a una branch.
