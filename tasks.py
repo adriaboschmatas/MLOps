@@ -8,6 +8,6 @@ def python(ctx):
 
 @task
 def git(ctx, message):
-    ctx.run(f"git add .")
-    ctx.run(f"git commit -m '{message}'")
-    ctx.run(f"git push")
+    ctx.run(f"git add .", echo=True)
+    ctx.run(f"git commit -m '{message}'", echo=True)
+    ctx.run(f"git push", echo=True)
